@@ -66,7 +66,7 @@ int main(void)
 
 	_printf("Hello ALX! contains %d characters\n", length);
 
-	length = _printf("Hello Holberton!");
+	length = _printf("Hello ALX!");
 
 	return (0);
 
