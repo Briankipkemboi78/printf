@@ -2,9 +2,9 @@
 
 ## Description
 
-This printf project is a collaboration between Samuel Adebayo and Gerald Juwah. Who are Software Engineers studing at students of ALX school. This project involves a function named "\_printf" which would imitate the actual "printf" command located in the stdio.h library. This function contains some of the basic features and functions found in the man 3 of "printf".
+The printf project herein is a collaboration between Brian Kipkemboi and Sharon Wawira. Who are Software Engineering students at ALX school. This project is about a function named "\_printf" which mirrors the actual "printf" command located in the stdio.h library. The function has some of the basic features and functions found in the man 3 of "printf".
 
-What you would learn from this project:
+What to expect from this project:
 
 - How to use git in a team setting
 - Applying variadic functions to big projects
@@ -18,17 +18,12 @@ What you would learn from this project:
 ## Usage
 
 - Prints a string to the standard output, according to a given format
-- All files were created and compiled on Ubuntu 14.04.4 LTS using GCC 4.8.4 with the command `gcc -Wall -Werror -Wextra pedantic *.c`
+- All files were created and compiled on Ubuntu 20.04 LTS using GCC 4.8.4 with the command `gcc -Wall -Werror -Wextra pedantic *.c`
 - Returns the number of characters in the output string on success, -1 otherwise
 - Call it this way: `_printf("format string", arguments...)` where `format string` can contain conversion specifiers and flags, along with regular characters.
 
-The **format** contains the string that is printed. As \_printf() is variadic function, it can receives n arguments that replace by n tags written inside the string.
 
-The format tags prototype is the following:
-
-    %[flags][length]specifier
-
-If the program runs successfully, the return value is the amount of chars printed.
+The program should return value is the amount of chars printed.
 
 | Specifier | Output              |
 | --------- | ------------------- |
@@ -48,15 +43,15 @@ If the program runs successfully, the return value is the amount of chars printe
 
 ## Examples
 
-1. Printing the string of chars "Hello ALX School":
+1. Printing the string of chars "ALX School":
 
-   - Input: `\_printf("Hello %s.", "ALX School");`
-   - Output: `Hello ALX School`
+   - Input: `\_printf("ALX %s.", "School");`
+   - Output: `ALX School`
 
 2. Printing an integer number:
 
-   - Input: `\_printf("2 + 2 is equal to %d.", 4);`
-   - Output: `2 + 2 is equal to 4`
+   - Input: `\_printf("3 + 3 is equal to %d.", 6);`
+   - Output: `3 + 3 is equal to 6`
 
 3. Printing a binary:
 
@@ -160,9 +155,9 @@ Function that Prints the Buffer
 
 ---
 
-### CONTRIBUTION.md
+### ADDITION.md
 
-Documentation stating the styleguide on how the work flow was carried out.
+Documentation that provides styleguide on how the work flow was carried out.
 
 ---
 
@@ -180,5 +175,5 @@ Function files used to run various tests on the \_printf Function.
 
 ## Authors
 
-- `Samuel Adebayo` adebayo.samuel.olusegun@gmail.com
-- `Gerald Juwah` geraldjuwah@gmail.com
+- `Brian Kipkemboi` briankipkemboi47@gmail.com
+- `
