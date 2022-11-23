@@ -1,5 +1,5 @@
 .\" Manpage for _printf.
-.TH _printf 3 "17 April 2022" "1.0" "User commands for _printf"
+.TH _printf 3 "23 November 2022" "1.0" "User commands for _printf"
 .SH NAME
  _printf - format and print data.
 .SH SYNOPSIS
@@ -74,4 +74,4 @@ int main(void)
 .SH SEE ALSO
 .R printf(3)
 .SH AUTHORS
-Written by \fBSamuel Adebayo\fR and \fBGerald Juwah\fR.
+Written by \fBBrian Kipkemboi\fR and \fBSharon Wawira\fR.
