@@ -19,4 +19,4 @@
 
 ### C Styleguide
 
-All C code is linted with [betty](https://github.com/holbertonschool/Betty)
+All C code is linted with [betty](https://github.com/ALX/Betty)
